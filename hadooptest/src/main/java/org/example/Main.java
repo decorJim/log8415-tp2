@@ -19,31 +19,36 @@ public class Main {
 
         @Override
         public void map(LongWritable key, Text line, Context context) throws IOException, InterruptedException {
-            System.out.println(line);
-            /** convert and put into array [user,friends] */
-            String strLine[]=line.toString().split("\t");
-            /** extracts user */
-            int user=Integer.valueOf(strLine[0]);
-            /** extracts friends */
-            String friends[]=strLine[1].split(",");
+            if(line.toString().isEmpty()==false || line.toString().isBlank()==false) {
+                /** convert and put into array [user,friends] */
+                String strLine[] = line.toString().split("\t");
 
-            /** idea is that all friend in array is considered to have mutual friend (current user)
-             *  [2,3,4,5,6]
-             *  (2,3) (3,2) (2,4) (4,2) (2,5) ....
-             *  map relation with count of 1
-             *
-             */
+                /** extracts user */
+                int user = Integer.valueOf(strLine[0]);
 
-            for(int i=0;i<friends.length;i++) {
-                for(int j=0;j<friends.length;j++) {
-                    if(friends[i]!=friends[j]) {
-                        Text commonFriendPair = new Text();
-                        commonFriendPair.set(friends[i]+","+friends[j]);
-                        context.write(commonFriendPair,new IntWritable(1));
+                /** extracts friends */
+                String friends[] = strLine[1].split(",");
+
+                if (friends.length > 0) {
+                    /** idea is that all friend in array is considered to have mutual friend (current user)
+                     *  [2,3,4,5,6]
+                     *  (2,3) (3,2) (2,4) (4,2) (2,5) ....
+                     *  map relation with count of 1
+                     *
+                     */
+
+                    for (int i = 0; i < friends.length; i++) {
+                        for (int j = 0; j < friends.length; j++) {
+                            if (friends[i] != friends[j]) {
+                                Text commonFriendPair = new Text();
+                                commonFriendPair.set(friends[i] + "," + friends[j]);
+                                context.write(commonFriendPair, new IntWritable(1));
+                            }
+                        }
                     }
                 }
-            }
 
+            }
         }
     }
 
