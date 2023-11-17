@@ -1,0 +1,120 @@
+SPARK -------------------
+buchanj-midwinter-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:00:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.823s
+user    0m0.155s
+sys     0m0.038s
+
+carman-farhorizons-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:01:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.529s
+user    0m0.176s
+sys     0m0.034s
+
+charlesworth-scene-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:01:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.667s
+user    0m0.167s
+sys     0m0.026s
+
+cheyneyp-darkbahama-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:01:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.370s
+user    0m0.171s
+sys     0m0.020s
+
+colby-champlain-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:01:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.495s
+user    0m0.178s
+sys     0m0.028s
+
+delamare-bumps-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:01:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.477s
+user    0m0.172s
+sys     0m0.021s
+
+delamare-lucy-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:01:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.456s
+user    0m0.169s
+sys     0m0.026s
+
+delamare-myfanwy-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:02:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.367s
+user    0m0.164s
+sys     0m0.027s
+
+delamare-penny-00-tSetting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/17 03:02:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+                                                                                
+real    0m10.461s
+user    0m0.186s
+sys     0m0.016s
+
+
+
+HADOOP -------------------
+buchanj-midwinter-00-t.txt
+real    0m4.907s
+user    0m7.751s
+sys     0m0.449s
+
+carman-farhorizons-00-t.txt
+real    0m3.850s
+user    0m6.759s
+sys     0m0.451s
+
+charlesworth-scene-00-t.txt
+real    0m4.881s
+user    0m7.088s
+sys     0m0.436s
+
+cheyneyp-darkbahama-00-t.txt
+real    0m4.797s
+user    0m7.300s
+sys     0m0.381s
+
+colby-champlain-00-t.txt
+real    0m3.893s
+user    0m7.097s
+sys     0m0.399s
+
+delamare-bumps-00-t.txt
+real    0m3.869s
+user    0m6.825s
+sys     0m0.416s
+
+delamare-lucy-00-t.txt
+real    0m3.833s
+user    0m6.632s
+sys     0m0.406s
+
+delamare-myfanwy-00-t.txt
+real    0m3.893s
+user    0m6.911s
+sys     0m0.459s
+
+delamare-penny-00-t.txt
+real    0m3.933s
+user    0m6.824s
+sys     0m0.437s
