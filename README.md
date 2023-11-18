@@ -32,3 +32,8 @@ https://dzone.com/articles/getting-hadoop-and-running
 https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html
 https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04
 https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
+
+
+# map reduce code for recommended friend
+
+- reference: https://stackoverflow.com/questions/15035778/hadoop-m-r-to-implement-people-you-might-know-friendship-recommendation 
